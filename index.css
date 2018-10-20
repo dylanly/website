@@ -1,0 +1,163 @@
+/*
+Name: Dylan Ly
+Date: 10.16.18
+Section: CSE 190z
+This is my index.css page for the assignment Web Development 2. In here I've
+included styling for my website using id's, classes, and tags to give my
+website a cohesive look and feel.
+*/
+
+.uw_logo {
+  width: 150px;
+  float:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  margin-right: 70px;
+  border-style: ridge;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  color: #267326;
+}
+
+nav {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.taskbar {
+  margin: 10px;
+  padding: 12px 100px;
+  background-color: #d1e0e0;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #a3c2c2;
+  border-radius: 7px;
+  color: #267326;
+  font-size: 15px;
+}
+
+
+a:hover, a:active {
+  background-color: #fff9e6;
+}
+
+body {
+  font-family: 'Montserrat',sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("background_trees.png")
+}
+
+#dylanly {
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-color: #a3c2c2;
+  border-radius: 10px;
+  float: left;
+}
+
+#resume {
+  width: 550px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-bottom: 60px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  float: left;
+}
+
+#resume_download {
+  margin-left: -400px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  background-color: #d1e0e0;
+  border-style: solid;
+  border-color: #a3c2c2;
+  border-radius: 7px;
+  color: #267326;
+  font-size: 15px;
+}
+
+#resume_download:hover, #resume_download:active {
+  background-color: #fff9e6;
+}
+
+#linkedin_external {
+  text-decoration: none;
+  background-color: #d1e0e0;
+  border-style: solid;
+  border-color: #a3c2c2;
+  border-radius: 7px;
+  color: #267326;
+  padding-left: 7px;
+  padding-right: 3px;
+}
+
+#linkedin_external:hover, #resume_download:active {
+  background-color: #fff9e6;
+}
+
+p {
+  margin-top: 30px;
+  margin-right: 40px;
+  line-height: 37px;
+  font-size: 18px;
+  color: black;
+  text-shadow: black 0px 0px 30px;
+
+}
+
+div {
+  line-height: 37px;
+  font-size: 18px;
+  color: black;
+  text-shadow: black 0px 0px 30px;
+}
+
+#footer_logo {
+  width: 20px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 17px;
+
+}
+
+#footer_email {
+  margin-left: 15px;
+  margin-right: -300px;
+  margin-top: -1px;
+  line-height: 50px;
+  font-size: 12px;
+  float: left;
+  color: #339966
+
+}
+
+footer {
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  border-style: solid;
+  border-color: #a3c2c2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  bottom: -200px;
+  width: 100%;
+  height: 50px;
+  float: left;
+  background-color: #d1e0e0;
+  color: #339966
+}
